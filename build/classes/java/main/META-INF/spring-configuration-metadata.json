@@ -1,0 +1,83 @@
+{
+  "groups": [
+    {
+      "name": "spring.data.redis",
+      "type": "faang.school.postservice.config.redis.RedisProperties",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties"
+    },
+    {
+      "name": "spring.data.redis.channel",
+      "type": "faang.school.postservice.config.redis.RedisProperties$Channel",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties",
+      "sourceMethod": "channel()"
+    },
+    {
+      "name": "spring.retry",
+      "type": "faang.school.postservice.config.RetryProperties",
+      "sourceType": "faang.school.postservice.config.RetryProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.data.redis.channel.ads-channel",
+      "type": "java.lang.String",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties$Channel"
+    },
+    {
+      "name": "spring.data.redis.channel.calculations-channel",
+      "type": "java.lang.String",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties$Channel"
+    },
+    {
+      "name": "spring.data.redis.channel.comments-channel",
+      "type": "java.lang.String",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties$Channel"
+    },
+    {
+      "name": "spring.data.redis.channel.likes-channel",
+      "type": "java.lang.String",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties$Channel"
+    },
+    {
+      "name": "spring.data.redis.channel.user-bans-channel",
+      "type": "java.lang.String",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties$Channel"
+    },
+    {
+      "name": "spring.data.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties"
+    },
+    {
+      "name": "spring.data.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "faang.school.postservice.config.redis.RedisProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.retry.initial-delay",
+      "type": "java.lang.Long",
+      "sourceType": "faang.school.postservice.config.RetryProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.retry.max-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "faang.school.postservice.config.RetryProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.retry.max-delay",
+      "type": "java.lang.Long",
+      "sourceType": "faang.school.postservice.config.RetryProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.retry.multiplier",
+      "type": "java.lang.Integer",
+      "sourceType": "faang.school.postservice.config.RetryProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
